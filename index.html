@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Магазин ноутбуков</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .nav-link.active {
+      font-weight: bold;
+      color: #007bff !important;
+    }
+    
+    h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #007bff;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: 1rem;
+      color: #007bff;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    }
+
+    .image-container {
+    flex-basis: 40%;
+    text-align: left;
+    }
+
+    .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    }
+    .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    }
+
+    .text-container {
+    flex-basis: 55%;
+    padding-right: 2rem;
+    }
+
+    .image-container {
+    flex-basis: 40%;
+    text-align: right;
+    }
+
+    .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .form-control,
+    .form-check-input {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 8px 12px;
+    }
+
+    .form-check-input {
+      margin-right: 8px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Магазин ноутбуков</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#mobility">Мобильность</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#information">Повышение производительности</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#creativity">Возможность творчества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#buy">Купить ноутбук</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <h1 class="text-center mb-5">Добро пожаловать в магазин ноутбуков</h1>
+    <p>Ноутбуки - незаменимые помощники в жизни современного человека. Их значение сложно переоценить, ведь они стали неотъемлемой частью нашей повседневности.</p>
+
+    <a name="mobility"></a>
+    <div class="section">
+        <div class="image-container">
+          <!-- Картинка для раздела "Мобильность и портативность" расположена слева -->
+          <img src="pictures/free.jpg" alt="Мобильность и портативность">
+          <figcaption>Ноутбук HUAWEI MateBook D 16</figcaption>
+        </div>
+        <div class="text-container">
+          <h2>Мобильность и портативность</h2>
+          <p>Во-первых, ноутбуки обеспечивают нам <a href="#">мобильность</a> и возможность работать и развлекаться в любом месте - дома, в офисе, в поездке или на отдыхе. Компактные размеры и <a href="#">портативность</a> ноутбуков позволяют всегда иметь под рукой мощное вычислительное устройство.</p>
+        </div>
+    </div>
+    
+    <a name="information"></a>
+    <div class="section">
+        <div class="text-container">
+          <h2>Повышение производительности</h2>
+          <p>Во-вторых, ноутбуки значительно <a href="#">повышают нашу производительность</a>. Благодаря современным процессорам, оперативной памяти и быстрым накопителям, мы можем эффективно работать с документами, анализировать данные, проектировать и создавать контент. Ноутбуки стали незаменимыми помощниками для специалистов самых разных профессий - от инженеров и дизайнеров до программистов и бизнесменов.</p>
+        </div>
+        <div class="image-container">
+          <img src="pictures/job.jpg" alt="Повышение производительности">
+        </div>
+    </div>
+    
+    <a name="creativity"></a>
+    <div class="section">
+        <div class="image-container">
+           <img src="pictures/tvor.jpg" alt="Возможность творчества">
+          </div>
+        <div class="text-container">
+            <h2>Возможность творчества</h2>
+            <p>Наконец, ноутбуки <a href="#">предоставляют нам возможность творить</a> и реализовывать свои идеи. С помощью ноутбуков мы можем создавать музыку, фото- и видеоконтент, писать статьи и книги, разрабатывать программное обеспечение. Ноутбуки стали инструментом для самовыражения и раскрытия нашего творческого потенциала.</p>
+        </div>
+    </div>
+    <a href="#top" class="d-block mt-3">Вернуться к началу страницы</a>
+
+    <a name="buy"></a>
+    <h2 id="laptops">Купить ноутбуки</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="laptop-cards">
+      <!-- Карточки с ноутбуками будут вставляться здесь с помощью JavaScript -->
+    </div>
+    <a href="#top" class="d-block mt-3">Вернуться к началу страницы</a>
+
+    <h2 id="why-us">Почему выбирают нас?</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="why-us-blocks">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Широкий ассортимент</h5>
+            <p class="card-text">В нашем магазине вы найдете ноутбуки на любой вкус и кошелек.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Профессиональные консультации</h5>
+            <p class="card-text">Наши специалисты помогут вам подобрать идеальный ноутбук под ваши задачи.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Гарантия и сервис</h5>
+            <p class="card-text">Мы предоставляем гарантию на все товары и осуществляем сервисное обслуживание.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#top" class="d-block mt-3">Вернуться к началу страницы</a>
+    <a href="#buy" class="d-block mt-3">Выбрать ноутбук</a>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Основные преимущества наших ноутбуков</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="pictures/work.jpg" class="card-img-top" alt="Мобильность">
+              <div class="card-body">
+                <h5 class="card-title">Мобильность</h5>
+                <p class="card-text">Наши ноутбуки отличаются компактными размерами и небольшим весом, что позволяет легко перемещаться с ними в любое место - будь то офис, поездка или отдых. Вы всегда сможете иметь под рукой мощное вычислительное устройство для работы и развлечений.</p>
+                <a href="#mobility" class="btn btn-primary">Кратко</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="#information">
+              <img src="pictures/product.jpg" class="card-img-top" alt="Повышение производительности">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Повышение производительности</h5>
+                <p class="card-text">Наши ноутбуки оснащены современными процессорами, оперативной памятью и быстрыми накопителями, что обеспечивает высокую производительность при решении любых задач. Вы сможете эффективно работать с документами, анализировать данные, проектировать и создавать контент, не замечая замедления в работе.</p>
+                <a href="#information" class="btn btn-primary">Кратко</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+            <a href="#creativity">
+              <img src="pictures/tvor2.jpg" class="card-img-top" alt="Возможность творчества">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Возможность творчества</h5>
+                <p class="card-text">Наши ноутбуки предоставляют широкие возможности для творчества. Вы можете использовать их для создания музыки, фото- и видеоконтента, написания статей и книг, разработки программного обеспечения. Ноутбуки станут незаменимым инструментом для раскрытия вашего творческого потенциала.</p>
+                <a href="#creativity" class="btn btn-primary">Кратко</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center my-4">
+          <a href="#buy" class="btn btn-primary">Купить ноутбук</a>
+          <a href="#top" class="d-block mt-3">Вернуться к началу страницы</a>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Связаться с нами</h2>
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <div class="mb-3">
+              <label for="name" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="name" name="name" value="Иван" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" value="laptopthebest@mail.ru" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Телефон</label>
+              <input type="tel" class="form-control" id="phone" name="phone"  value = "12345678" required>
+            </div>
+            <div class="mb-3">
+              <label for="laptop-model" class="form-label">Модель ноутбука</label>
+              <input type="text" class="form-control" id="laptop-model" name="laptop-model" value = "macbook 13" required>
+            </div>
+            <div class="mb-3">
+              <label for="laptop-issue" class="form-label">Проблема с ноутбуком</label>
+              <textarea class="form-control" id="laptop-issue" name="laptop-issue" rows="1" required>Не запускается</textarea>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Тип обращения</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="enquiry-type" id="enquiry-type-order" value="order" checked>
+                <label class="form-check-label" for="enquiry-type-order">
+                  Заказ
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="enquiry-type" id="enquiry-type-feedback" value="feedback">
+                <label class="form-check-label" for="enquiry-type-feedback">
+                  Отзыв
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="enquiry-type" id="enquiry-type-other" value="other">
+                <label class="form-check-label" for="enquiry-type-other">
+                  Другое
+                </label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Сообщение</label>
+              <textarea class="form-control" id="message" name="message" rows="2" required>Введите ваше сообщение..</textarea>
+            </div>
+            <input type="hidden" name="q" value="">
+            <input type="hidden" name="form" value="QBLH">
+            <input type="hidden" name="sp" value="-1">
+            <input type="hidden" name="pq" value="">
+            <input type="hidden" name="sc" value="0-0">
+            <input type="hidden" name="qs" value="n">
+            <input type="hidden" name="sk" value="">
+            <input type="hidden" name="cvid" value="">
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Отправить</button>
+            </div>
+        </form>
+      </div>
+    
+      
+      
+  </main>
+
+  <footer class="bg-light py-3">
+    <div class="container text-center">
+      &copy; 2024 Магазин ноутбуков. Все права защищены.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('UserEnter').addEventListener('submit', function(event) {
+      event.preventDefault(); // Предотвращаем стандартную отправку формы
+  
+      // Получаем значения из полей формы
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var phone = document.getElementById('phone').value;
+      var laptopModel = document.getElementById('laptop-model').value;
+      var laptopIssue = document.getElementById('laptop-issue').value;
+      var enquiryType = document.querySelector('input[name="enquiry-type"]:checked').value;
+      var message = document.getElementById('message').value;
+  
+      // Заполняем значения скрытых полей формы
+      document.querySelector('input[name="q"]').value = `Name: ${name}, Email: ${email}, Phone: ${phone}, Laptop Model: ${laptopModel}, Laptop Issue: ${laptopIssue}, Inquiry Type: ${enquiryType}, Message: ${message}`;
+  
+      // Отправляем форму
+      this.submit();
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Функция для создания карточек с ноутбуками
+    function createLaptopCards() {
+      const container = document.getElementById('laptop-cards');
+      const laptops = [
+        {
+          name: 'Ноутбук HUAWEI MateBook D 16',
+          image: 'pictures/laptop1.jpg',
+          description: 'Ноутбук Huawei MateBook D 16 2024 i5/16/512/DOS Space Gray 53013YDK с металлическим корпусом цвета «серый космос», толщина которого составляет 18,4 мм, весит 1,7 кг',
+          url: 'https://www.huawei.com/ru/laptops/matebook-d-16'
+        },
+        {
+          name: 'Ноутбук Apple MacBook Air 13 M2',
+          image: 'pictures/macos4.jpg',
+          description: 'Ноутбук Apple MacBook Air 13 M2 Space Grey — восьмиядерная модель с процессом Apple M2 и ОС macOS. 13,6-дюймовый экран работает на основе технологии IPS',
+          url: 'https://apple-avenue.ru/catalog/macbook_air_1/apple_macbook_air_13_with_retina_true_tone_mid_2022_m2_10s_8_512gb_space_grey_mlxx3_/'
+        },
+        {
+          name: 'Ноутбук ASUS ZenBook 14 OLED',
+          image: 'pictures/laptop5.jpg',
+          description: 'Ноутбук Asus ZenBook 14 OLED UM3406HA-QD129W — ультрапортативная модель с раскрывающейся на 180° крышкой. Корпус выполнен из металла, его толщина — всего 1,49 см, весит лэптоп — 1,2 кг',
+          url: 'https://www.asus.com/ru/laptops/for-home/zenbook/zenbook-14-oled-ux3402/'
+        },
+        {
+          name: 'Ноутбук Apple MacBook Pro 14 M2',
+          image: 'pictures/macos3.jpg',
+          description: 'Ноутбук Apple MacBook Air 14 M2 8 core/10 core/16/512/Starlight (MXD33) сочетает компактность и высокую производительность, что делает его удачным выбором для учебы',
+          url: 'https://id-store.ru/noutbuki/filter/price-base-from-65990-to-415990/prop_series-is-d7ef28d2098bd33e7a3b1e48b50aaa0b/prop_processor_2-is-d8f3707f2fa7726bf55a80b1a4e09439/apply/?utm_source=yandex&utm_medium=cpc&utm_campaign=115186800.Notebook_Macbook_search_general_M&utm_content=group_5504662956.ad_16597633447&utm_term=Macbook%20Air%2015%20M3&roistat=direct4_search_16597633447_Macbook%20Air%2015%20M3&roistat_referrer=none&roistat_pos=premium_1&yclid=13301700113897095167'
+        },
+        {
+          name: 'Ноутбук Tecno Megabook S1 S15AM/15.6',
+          image: 'pictures/laptop4.jpg',
+          description: 'Ноутбук для бизнеса Tecno Megabook-S1 S15AM (S1 i5 16+512G Grey Win11) представлен в корпусе из магниевого сплава, благодаря чему модель отличается легкостью (1,35 кг)',
+          url: 'https://ru.tecno-mobile.com/pc-tablets/product-detail/product/megabook-s1/'
+        },
+        {
+          name: 'Ноутбук ASUS E1504GA-BQ562/15.6',
+          image: 'pictures/asus2.jpg',
+          description: 'Универсальный размер, комфортный и для работы, и для просмотра фильмов и игр, и для транспортировки. Разрешение 1920x1080 пикселей гарантирует четкость и отличную детализацию',
+          url: 'https://www.mvideo.ru/products/noutbuk-asus-e1504ga-bq562-156-intel-core-i3-n305-8-256-noos-black-90nb0zt2-m00y10-30072638'
+        }
+      ];
+
+      laptops.forEach(laptop => {
+        const card = document.createElement('div');
+        card.classList.add('col');
+        card.innerHTML = `
+          <div class="card h-100 d-flex flex-column">
+            <img src="${laptop.image}" class="card-img-top flex-grow-0" alt="${laptop.name}">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">${laptop.name}</h5>
+                <p class="card-text">${laptop.description}</p>
+              </div>
+              <a href="${laptop.url}" class="btn btn-primary align-self-end">Купить</a>
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Создание карточек с ноутбуками
+    createLaptopCards();
+  </script>
+</body>
+</html>

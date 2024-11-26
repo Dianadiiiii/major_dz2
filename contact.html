@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Контакты | Наш Ноут</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .nav-link.active {
+      font-weight: bold;
+      color: #007bff !important;
+    }
+    
+    h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #007bff;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: 1rem;
+      color: #007bff;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+</style>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Наш Ноут</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container my-5">
+      <h1 class="text-center mb-5">Свяжитесь с нами</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-info">
+            <h3>Наш магазин</h3>
+            <p><i class="fas fa-map-marker-alt"></i> ул. Пушкина, 12, Москва</p>
+            <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+            <p><i class="fas fa-envelope"></i> info@nashnotebook.ru</p>
+            <p><i class="fas fa-clock"></i> Пн-Пт: 10:00 - 20:00, Сб-Вс: 11:00 - 18:00</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="contact-form">
+            <form id="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Сообщение</label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
